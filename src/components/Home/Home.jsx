@@ -18,7 +18,7 @@ const Home = () => {
                <div className="button">
                     <Link to='/about' className="btn btn-white">
                          <p className="btn-text">About me</p></Link>
-                    <Link to='/Contact' className="btn btn-transparent">
+                    <Link to='/ContactApp' className="btn btn-transparent">
                          <p className='btn-text'>Contact me</p>
                     </Link>
                </div>

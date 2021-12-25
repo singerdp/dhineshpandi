@@ -45,25 +45,26 @@ const Contact = () => {
     }))
   }
   return (
-    <div>
+    <div className="">
     <h3 className="msg">Drop a Mail</h3>
     <div className="forms">
       {status && renderAlert()}
       <form onSubmit={handleSubmit}>
-        <InputField style={divstyle}value={values.fullName} handleChange={handleChange}  name="fullName" type="text" placeholder="  Your Name" />
-        <InputField value={values.email} handleChange={handleChange} name="email" type="email" placeholder=" Your Email" />
+        <InputField label="Name" style={divstyle}value={values.fullName} handleChange={handleChange}  name="fullName" type="text" placeholder="  Your Name" />
+        <InputField label="Email"value={values.email} handleChange={handleChange} name="email" type="email" placeholder=" Your Email" />
         
         <TextareaField value={values.message} handleChange={handleChange}  type="text" name="message" />
         <button type="submit" className="sub ">Send </button>
       </form>
+      
     </div></div>
   )
 }
 const divstyle={
   position: 'absolute',
   'border-radius': '20px',
-  top:'0px',
-  left:'0px',
+  top:'1000px',
+  left:'220px',
   color:'white',
   width:'250px',
   height:'40px'

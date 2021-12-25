@@ -19,13 +19,11 @@ const about = () => {
                     <Slider >
                          <Card img={violin} p="
 Myself, Dhinesh Pandi started my career from engineering and now ended up with music. 
-Music is a miracle that happened at my age of 12. From then and till now, i had never let my passion down.
+Music is a miracle that happened at my age of 12. From then and till now, I had never let my passion down.
 " />
-                         <Card img={dp_about} p=" Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia.
-        Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan
-        tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt
-        fringilla massa. Etiam hendrerit dolor eget rutrum"/>
-                         <Card img={sing} p="I'm an emerging playback singer. I have done lot of jamming across the cities. I would love to colloborate."/>
+                         <Card img={dp_about} p="I have been skilled in Carnatic music, Western Classical and noted for both male and female voice for the song titled 'Amma Amma' from VIP. This 
+                         song has added a feather to my cap."/>
+                         <Card img={sing} p="Worked on a complete composition of the song titled 'Army' and released it. Futhermore, I have done a lot of jamming across the cities. Just want to spread the love through my music. Come and join us for more magical moments."/>
                     </Slider>
                </div>
           </div>
@@ -56,7 +54,7 @@ const Card = ({ img,p }) => {
                {p}
                <p style={{ fontStyle: "italic", marginTop: 25 }}>
                     <span style={{ fontWeight: 500, color: "green" }}>Singer</span> ,
-                    Media Analyst
+                    Music Industry
                </p>
                <Footer className="foot" link='Check out my songs' toAddress='./songs' />
           </div>

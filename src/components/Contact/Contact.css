@@ -4,10 +4,11 @@
      font-family: cursive;
      color: rgb(201, 226, 248);
 }
+
 .msg{
      color:burlywood;
      position: absolute;
-     left: 700px;
+     left: 720px;
      top:200px;
      font-family: cursive;
 }
@@ -18,35 +19,45 @@
      font-family: cursive;
      color: rgb(176, 214, 248);
 }
+.contact{
+     background: url(F:\website\singer\src\assets\sing.jpg)center center/cover no-repeat;
+}
 .bors{
      border-radius: 15px;
-     background-color: #b1d4eb;
+     background-color: #f4f6f8;
      position: absolute;
-     left:-10px;
+     left:35px;
      width: 250px;
      height: 25px;
-     top:-10px;
+     top:0px;
      
 }
 input[type="text"]{
-     top:40px;
-     left:-10px;
+     top:55px;
+     left:35px;
      width: 250px;
      border-radius: 30px;
      height: 25px;
+}
+.mess{
+     position: absolute;
+     left:-25px;
+     top:100px;
+     font-family: cursive;
+     color:cadetblue
 }
 .bor{
      border-bottom-width: 2px;
      outline:none;
      position: absolute;
-     top:95px;
+     top:120px;
      width: 250px;
      height: 150px;
-     left:-10px;
+     left:40px;
      border-radius: 15px;
      border: 15px;
-     color: blue;
-     background-color: #b1d4eb; 
+     color: rgb(16, 16, 19);
+     background-color: #f3f4f5; 
 } 
 .forms{
      position: absolute;
@@ -57,15 +68,15 @@ input[type="text"]{
      color: cornsilk;
      font-family: cursive;
      position: absolute;
-     top:80px;
+  
 }
 .sub{
      margin-top: 1rem;
-     background-color:cadetblue;
+     background-color:rgb(161, 225, 241);
      
      border-radius: 15px;
      position: absolute;
-     left:70px;
+     left:120px;
      top:280px;
      outline:none;
      cursor:pointer;
@@ -73,20 +84,52 @@ input[type="text"]{
      width:80px;
      height:50px;
 }
+
 .mar{
      margin-bottom: -0.1rem;
      padding: 2px;
 }
 
-
-.name{
+.names{
      color:cadetblue;
      font-family: cursive;
+     position: absolute;
+     left:-40px;
+
+        
 }
-.feel{
+.feel{    
      top:130px;
      left:640px;
      position: absolute;
+}
+.msgs{
+     position: absolute;
+     left:-55px;
+     top:100px;
+     font-family: cursive;
+     color:cadetblue;
+     font-weight: lighter;
+     font-size:medium
+}
+.Social-icon-container{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     position: absolute;
+     left: 670px;
+     top:650px;
+}
+.social-icon{
+     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+     margin:21px;
+}
+.social-icon:hover{
+     filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.32));
+     cursor: pointer;
+     transition: all 0.3s;
 }
 .sub:hover{
      background-color: rgb(29, 152, 235);
